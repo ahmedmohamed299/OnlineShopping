@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">OnlineShopping</string>
+    <string name="FACEBOOK_APP_ID">277931336190761</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">[ACCOUNT_KIT_CLIENT_TOKEN]</string>
+    <string name="loading">loading</string>
+    <string name="skip">Skip</string>
+    <string name="number">Phone Number</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="login">Login</string>
+    <string name="Hot_Deals">Hot Deals</string>
+    <string name="See_All">See All</string>
+
+    
+    
+    
+    <string name="activition_code">Activition code</string>
+    <string name="enter_activition_code">3cd6153a8883acc98ff34824b367ea63</string>
+    <string name="facebook_app_id">277931336190761</string>
+    <string name="fb_login_protocol_scheme">fb277931336190761</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="server_client_id">222758002311-i902j0ofhfodmt9i5v5iflsca0fqkct2.apps.googleusercontent.com</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
