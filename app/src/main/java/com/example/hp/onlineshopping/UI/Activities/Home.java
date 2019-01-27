@@ -19,13 +19,23 @@ public class Home extends BaseActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
-                    getSupportFragmentManager().beginTransaction().add(R.id.frameLayout,new HomeFragment())
-                            .commit();
+
+                    getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout, new HomeFragment())
+                                .commit();
+
 
                     return true;
-                case R.id.navigation_dashboard:
+
+                case R.id.navigation_categories:
                     return true;
-                case R.id.navigation_notifications:
+
+                case R.id.navigation_fav:
+                    return true;
+
+                case R.id.navigation_cart:
+                    return true;
+
+                case R.id.navigation_more:
                     return true;
             }
             return false;
@@ -39,6 +49,10 @@ public class Home extends BaseActivity {
 
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+
+        getSupportFragmentManager().beginTransaction().add(R.id.frameLayout, new HomeFragment())
+                .commit();
+
     }
 
 }
